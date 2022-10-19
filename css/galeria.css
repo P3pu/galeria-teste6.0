@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,500;0,700;1,900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+    animation-name: background;
+    background-image: linear-gradient(to left, #e8c679,#ecc246,#f4c300,#40360d);
+    background-size: 400% 200%;
+    animation: background 5s infinite alternate ;
+   
+}   
+
+@keyframes background{
+    0%{
+       background-position-x: 0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #2c2b2b;
+    width: 100%;
+}
+
+.navbar-galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+}
+
+.titulo {
+    color: #fff;
+    transition: transform .3s;
+}
+
+.titulo:hover{
+    transform: scale(1.1);
+}
+.nav-social {
+    border-radius: 38%;
+    margin: 0rem 0.5rem;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s;
+}
+
+.nav-social:hover{
+    transform: scale(1.1);
+}
+
+.galeria-main {
+    margin-top: 20px;
+}
+
+.galeria-container {
+    height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2.5vw;
+    padding: 0 1vw;
+}
+
+
+.galeria-items {
+    width: 360px;
+    height: 340px;
+    border: 10px solid #2c2b2b;
+    box-shadow: 3px 3px 3px #7c7c8a;
+    flex-grow: 0.5;
+    transition: transform .2s ;
+    
+}
+.galeria-items:hover {
+    transform: scale(1.1)
+}
+
+.galeria-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

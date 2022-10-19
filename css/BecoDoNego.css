@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,500;0,700;1,900&display=swap");
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* html,body {
+   background: #cecece;
+   box-shadow: 0px 3px 10px #2c2b2b; 
+   
+    background-image: url(/assets/img/images3.svg);
+   background-repeat: no-repeat;
+   background-position: 100;
+   background-size: cover;
+   width: 100vw 
+}   */
+
+header {
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #2c2b2b;
+}
+
+.navbar-historia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+}
+
+.titulo {
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.titulo:hover {
+  transform: scale(1.2);
+}
+.nav-social {
+  border-radius: 38%;
+  margin: 0rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.nav-social:hover {
+  transform: scale(1.2);
+}
+
+.container-main {
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 27px;
+}
+.subtitulo {
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-align: center;
+  color: rgb(255, 85, 0);
+  margin: 5px;
+}
+
+.texto{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 500;
+  margin-top: 1%;
+}
+
+.section-negovila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem ;
+
+}
+
+.img-negovila{
+  width: 1000px;
+
+}
